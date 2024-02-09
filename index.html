@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Snap</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Epilogue 500 700 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="nav-mobile">
+    <img src="images/logo.svg" alt="Logo escrito snap com a cor preta">
+    <img id="menu-icon" src="images/menu-icon.svg" alt="icon menu hamburger">
+    <ul class="menu-mobile">
+      <li>
+        <div class="menu-mobile__features">
+          <p class="menu-mobile__features__title">Features</p>
+          <img class="menu-mobile__features__icon-arrow" src="images/icon-arrow-down.svg" alt="">
+        </div>
+        <ul class="features-subMenu">
+          <li class="features-subMenu__item">
+            <img class="features-subMenu__item_icon" src="images/icon-todo.svg" alt="Todo List Icon">
+            <p class="features-subMenu__item__title">Todo List</p>
+          </li>
+          <li class="features-subMenu__item">
+            <img class="features-subMenu__item_icon" src="images/icon-calendar.svg" alt="Todo List Icon">
+            <p class="features-subMenu__item__title">Calendar</p>
+          </li>
+          <li class="features-subMenu__item">
+            <img class="features-subMenu__item_icon" src="images/icon-reminders.svg" alt="Todo List Icon">
+            <p class="features-subMenu__item__title">Reminders</p>
+          </li>
+          <li class="features-subMenu__item">
+            <img class="features-subMenu__item_icon" src="images/icon-planning.svg" alt="Todo List Icon">
+            <p class="features-subMenu__item__title">Planning</p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <div>
+          <div class="menu-mobile__company">
+            <p class="menu-mobile__company__title">Company</p>
+            <img class="menu-mobile__company__icon-arrow" src="images/icon-arrow-down.svg" alt="">
+          </div>
+          <ul class="subMenu-company">
+            <li class="subMenu-company__item">History</li>
+            <li class="subMenu-company__item">Our team</li>
+            <li class="subMenu-company__item">Blog</li>
+          </ul>
+        </div>
+      </li>
+      <li class="menu-mobile__career">Careers</li>
+      <li class="menu-mobile__about">About</li>
+      <div class="login-register-group">
+        <a class="menu-mobile__login" href="">Login</a>
+        <a class="menu-mobile__register" href="">Register</a>
+      </div>
+    </ul>
+  </nav>
+
+  <div class="overlay"></div>
+
+  <nav class="nav-desktop">
+    <div class="logoAndListMenuGroup">
+      <img src="images/logo.svg" alt="Logo escrito snap com a cor preta">
+      <ul class="menu-desktop">
+        <li class="position-relative">
+          <div class="menu-desktop__features">
+            <p>Features</p>
+            <img class="menu-desktop__features__icon-arrow" src="images/icon-arrow-down.svg" alt="">
+          </div>
+          <ul class="subMenu-Desktop-features">
+            <li>
+              <img src="images/icon-todo.svg" alt="Todo List Icon">
+              <p>Todo List</p>
+            </li>
+            <li>
+              <img src="images/icon-calendar.svg" alt="Todo List Icon">
+              <p>Calendar</p>
+            </li>
+            <li>
+              <img src="images/icon-reminders.svg" alt="Todo List Icon">
+              <p>Reminders</p>
+            </li>
+            <li>
+              <img src="images/icon-planning.svg" alt="Todo List Icon">
+              <p>Planning</p>
+            </li>
+          </ul>
+        </li>
+        <li class="position-relative">
+          <div class="menu-desktop__company">
+            <p>Company</p>
+            <img class="menu-desktop__company__icon-arrow" src="images/icon-arrow-down.svg" alt="">
+          </div>
+          <ul class="subMenu-desktop-company">
+            <li class="subMenu-desktop-company__item">History</li>
+            <li class="subMenu-desktop-company__item">Our team</li>
+            <li class="subMenu-desktop-company__item">Blog</li>
+          </ul>
+        </li>
+        <li>Careers</li>
+        <li>About</li>
+      </ul>
+    </div>
+    <div class="login-register-desktop-group">
+      <a class="menu-desktop__login" href="">Login</a>
+      <a class="menu-desktop__register" href="">Register</a>
+    </div>
+  </nav>
+
+  <section class="hero-section">
+    <div class="order-2">   
+      <img class="responsive-image image-hero-mobile" src="images/image-hero-mobile.png" alt="">
+      <img class="responsive-image image-hero-desktop" src="images/image-hero-desktop.png" alt="">
+    </div>
+    <div class="hero__introduction order-1">
+      <h1 class="hero__title">Make remote work</h1>
+      <p class="hero__description">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+      <button class="hero__btn">Learn more</button>
+      <div class="marcas">
+        <img src="images/client-databiz.svg" alt="">
+        <img src="images/client-audiophile.svg" alt="">
+        <img src="images/client-meet.svg" alt="">
+        <img src="images/client-maker.svg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <script src="js/all-scripts-mobile.js"></script>
+</body>
+</html>
